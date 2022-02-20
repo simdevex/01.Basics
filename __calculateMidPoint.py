@@ -1,0 +1,31 @@
+'''
+Python program to calculate midpoints of a line.
+'''
+
+def calculateMidPoint (x1, y1, x2, y2):
+    x_m_point = (x1 + x2)/2
+    y_m_point = (y1 + y2)/2
+    return (x_m_point, y_m_point)
+
+def printPointValue (x_m_point, y_m_point):
+    print();
+    print("The midpoint of line is :")
+    print( "The midpoint's x value is: ",x_m_point)
+    print( "The midpoint's y value is: ",y_m_point)
+    print();
+
+
+def main ():
+    print('\nCalculate the midpoint of a line :')
+    
+    x1 = float(input('The value of x (the first endpoint) '))
+    y1 = float(input('The value of y (the first endpoint) '))
+
+    x2 = float(input('The value of x (the first endpoint) '))
+    y2 = float(input('The value of y (the first endpoint) '))
+    
+    a,b = [float(x) for x in calculateMidPoint (x1, y1, x2, y2)]
+    
+    printPointValue (a, b)
+    
+main ()
