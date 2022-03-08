@@ -51,6 +51,6 @@ def computePolygonArea(n_sides, s_length ):
 def main():
     n_sides = int(input("Input number of sides: "))
     s_length = float(input("Input the length of a side: "))
-    print("The area of the polygon is: ", computePolygonArea(n_sides, s_length))
+    print("The area of the polygon is: ", format(computePolygonArea(n_sides, s_length), '.2f'))
     
 main ()
