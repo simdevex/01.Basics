@@ -40,8 +40,6 @@ Input Coordinate y: 1
 Area of the Polygon: 0.5
 
 '''
-
-
 from math import tan, pi
 
 def computePolygonArea(n_sides, s_length ):
