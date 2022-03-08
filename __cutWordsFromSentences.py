@@ -20,7 +20,6 @@ The quick brown fox
 The quick brown fox
 
 '''
-
 print("Input a sentence (1024 characters. max.)")
 yy = input()
 yy = yy.replace(",", " ")
