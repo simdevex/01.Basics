@@ -30,18 +30,18 @@ def lucky_Numbers(matrix):
     The item is sent to the function as a parameter.
    
     Original matrix: [[1, 2], [2, 3]]
-    Min  {1, 2}
-    Max  {2, 3}
+    Min  {1, 2} - find the minimum number in each row, meanining 1 in [1,2] , 2 in [2,3]
+    Max  {2, 3} - find the maximum number in each column using zip()
     Lucky number(s) in the said matrix:  [2]
 
     Original matrix: [[1, 2, 3], [3, 4, 5]]
-    Min  {1, 3}
-    Max  {3, 4, 5}
-    Lucky number(s) in the said matrix:  [3]
+    Min  {1, 3} - 1 is minimum in [1, 2, 3] , 3 is minimum in [3, 4, 5]
+    Max  {3, 4, 5} -  3 is maximum in [1,3] , 4 is maximum in [2, 4] , 5 is maximum in [3, 5] 
+    Lucky number(s) in the said matrix:  [3] if you & the 2 sets you get 3
 
     Original matrix: [[7, 5, 6], [3, 4, 4], [6, 5, 7]]
-    Min  {3, 5}
-    Max  {5, 7} 
+    Min  {3, 5} - note since we are using set we are getting elements ordered and duplicates removed
+    Max  {5, 7} - note since we are using set we are getting elements ordered and duplicates removed
     Lucky number(s) in the said matrix:  [5]
     '''
        
