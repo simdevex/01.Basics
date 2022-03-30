@@ -66,5 +66,3 @@ nums = [1,3,8,4,7]
 print("\nOriginal Sequence:",nums)
 print("Check the said sequence is Linear, Quadratic or Cubic?")
 print(Seq_Linear_Quadratic_Cubic(nums)) #as does not return anything, hence print None
-
-
