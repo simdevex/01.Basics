@@ -12,7 +12,7 @@ def reverse_even(txt):
     '''
     Powerful use of single line returns
     Reverse the string by slicing backwards [::-1]
-    Row to return and single statement
+    Row to return and single statement in a function call
     In Python you can read statement from right to left hence statement below can be compacted into
     a single line
     for i in txt.split():
