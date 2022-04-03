@@ -12,6 +12,7 @@ def getSumSpecial (inputNum01, inputNum02):
     
     
 def main ():
+    #special for loop forming a list, and returning more than one variables
     a,b = [int(x) for x in input("Enter two values\n").split(',')]
     print ("Sum is : ", getSumSpecial(a,b))
 
