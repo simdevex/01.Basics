@@ -22,7 +22,6 @@ def reverse_even(txt):
             return i
             
     '''
-    #single line of return statement with for
     return ' '.join(i[::-1] if not len(i)%2 else i for i in txt.split())
 
 

@@ -14,7 +14,6 @@ Sample Output:
 def sum_three_smallest_nums(lst):
         # [:3] means sort from lowest to highest and get first three lowest possible
         # Then sum
-        #single line of return statement with for
     	return sum(sorted([x for x in lst if x > 0])[:3])
 
 print(sum_three_smallest_nums([10, 20, 30, 40, 50, 60, 7]))

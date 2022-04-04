@@ -20,7 +20,6 @@ def unique_nums(nums):
             print ("i", i)
     return i 
     '''
-    #single line of return statement with fors
     return [i for i in nums if nums.count(i)==1]
 
 nums = [1,2,3,2,3,4,5]

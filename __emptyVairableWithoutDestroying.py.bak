@@ -17,7 +17,6 @@ def emptyVariableOptionOne ():
     print(type(t)())
 
 def Empty_Var(lst):
-       #single line of return statement with for
        return [type(i)() for i in lst]
 
 def emptyVariableOptionTwo (): 

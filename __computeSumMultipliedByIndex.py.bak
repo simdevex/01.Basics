@@ -14,7 +14,6 @@ Sample Output:
 
 def sum_index_multiplier(nums):
         # use enumerate to return count and value
-        #single line of return statement with for
     	return sum(j*i for i, j in enumerate(nums))
 
 print(sum_index_multiplier([1,2,3,4]))

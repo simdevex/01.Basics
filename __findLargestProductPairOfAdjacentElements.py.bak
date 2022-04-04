@@ -22,7 +22,6 @@ iterables	can be built-in iterables (like: list, string, dict), or user-defined 
 
 def adjacent_num_product(list_nums):
     #create 2 tuples. The second tuple is right shifted and multiply the numbers
-    #single line of return statement with zip
     return max(a*b for a, b in zip(list_nums, list_nums[1:]))
 
 print(adjacent_num_product([1,2,3,4,5,6]))
