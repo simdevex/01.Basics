@@ -22,7 +22,7 @@ True
 #License: https://bit.ly/3oLErEI
 
 def test(n):
-    #Advanced assignment manipulation
+    #Advanced assignment manipulation and True False
     return n % 34 == 4 and n > 4 ** 4
 
 n = 922
