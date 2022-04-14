@@ -26,14 +26,15 @@ False
 #License: https://bit.ly/3oLErEI
 
 def test(li):
-   #all() function returns True if all items in an iterable are true, otherwise it returns False. If the iterable object is empty, the all() function also returns True.
+   #all() function returns True if all items in an iterable are true, otherwise it returns False. 
+   #If the iterable object is empty, the all() function also returns True. all() only works on iteratable
    #Long single line return statement 
    '''
    for i in li:
        for j in li:
            if i != j :
                return (i in range(1000) and abs(i - j) >= 10) and len(set(li)) == 100
-   '''
+   '''           
    return all(i in range(1000) and abs(i - j) >= 10 for i in li for j in li if i != j) and len(set(li)) == 100
 
 nums = list(range(0, 1000, 10))
