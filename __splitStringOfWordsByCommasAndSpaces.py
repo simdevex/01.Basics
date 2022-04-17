@@ -24,6 +24,12 @@ def test(string):
     '''
     merged = re.split(r"([ ,]+)", string)
     print ("Merged", merged)
+
+    '''
+    [::2] -> print the elements from initial index 0 to last index with increment of 2 index
+    [1::2]] -> print the elements from second index 1 to last index with increment of 2 index
+    
+    '''
     return [merged[::2], merged[1::2]]
 
 
